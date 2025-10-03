@@ -4,7 +4,7 @@ export const AboutMeImage = () => {
   return (
     <div className='h-[500px] w-[30px] relative'>
         <div className='h-[500px] w-[300px] rounded-[100px] absolute overflow-hidden'>
-            <img src="%PUBLIC_URL%/images/aboutme.png" alt="about me image"
+            <img src={`${process.env.PUBLIC_URL}/images/aboutme.png`} alt="about me image"
                 className='h-full w-auto object-cover'
             />
         </div>
